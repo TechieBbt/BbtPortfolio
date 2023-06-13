@@ -1,0 +1,22 @@
+.bottom{
+    background: var(--text-dark);
+}
+.copyright{
+    padding: 20px 15%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.end p{
+    color: var(--extra-light);
+    font-size: 14px;
+}
+.back-to-top i{
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 20px;
+    background: var(--secondary-color);
+    color: var(--extra-light);
+}

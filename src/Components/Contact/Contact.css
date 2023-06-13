@@ -1,0 +1,114 @@
+.contactside{
+    background-color: gray;
+    margin-top: 5rem;
+}
+.contact{    
+    padding-top: 3rem;
+    max-width: var(--max-width);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+.con-text{
+    margin-top: -7rem;
+}
+.con-text h4{
+    color: var(--text-dark);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 18px 0;
+}
+.con-text h2{
+    color: var(--secondary-color);
+}
+.con-text p{
+    color: var(--extra-light);
+    line-height: 1.8;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.list{
+    margin-bottom: 2.5rem;
+    list-style-type: none;
+}
+.list li{
+    margin-bottom: 20px;
+}
+.list li a{
+    color: var(--text-dark);
+    font-size: 14px;
+    display: block;
+    transition: all .45s ease;
+}
+.list li a:hover{
+    color: var(--text-light);
+    transform: translateX(5px);
+}
+.c-icons i{
+    height: 40px;
+    width: 40px;
+    color: rgb(190, 218, 243);
+    font-size: 22px;
+    background: #bd59f7ec;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border-radius: 8px;
+    transition: all .45s ease;
+}
+.c-icons i:hover{
+    background: rgb(190, 218, 243);
+    color: #bd59f7ec;
+}
+.c-form form{
+    position: relative;
+    padding-top: 3rem;
+}
+.c-form form input,
+form textarea{
+    width: 100%;
+    padding: 14px;
+    background: var(--text-dark);
+    color: var(--extra-light);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.c-form textarea{
+    resize: none;
+    height: 240px;
+}
+.c-form .submit{
+    background: var(--secondary-color);
+    color: var(--extra-light);
+    display: inline-block;
+    font-size: 16px;
+    width: 160px;
+    transition: all .45s ease;
+}
+.c-form .submit:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media (max-width: 1200px){
+    .contact{
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (max-width: 920px){
+    .contact{
+        width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .con-text{
+        margin-top: 0.5rem;
+    }
+}
