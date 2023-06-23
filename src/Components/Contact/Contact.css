@@ -1,5 +1,5 @@
 .contactside{
-    background-color: gray;
+    background-color: var(--text-light);
     margin-top: 5rem;
 }
 .contact{    
@@ -84,7 +84,7 @@ form textarea{
     height: 240px;
 }
 .c-form .submit{
-    background: var(--secondary-color);
+    background: var(--primary-color);
     color: var(--extra-light);
     display: inline-block;
     font-size: 16px;
@@ -95,6 +95,17 @@ form textarea{
     transform: scale(1.1);
     cursor: pointer;
 }
+.row{
+    background: white;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.09);
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .row p{
+    padding: 2rem;
+    color: purple;
+  }
 
 @media (max-width: 1200px){
     .contact{
@@ -110,5 +121,8 @@ form textarea{
     }
     .con-text{
         margin-top: 0.5rem;
+    }
+    .con-text p{
+        width: 70%;
     }
 }

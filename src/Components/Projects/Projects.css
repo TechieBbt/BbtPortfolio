@@ -8,6 +8,7 @@
     align-items: center;
     gap: 2.5rem;
     margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .p-box{
     position: relative;
@@ -78,9 +79,68 @@
     height: 100%;
 }
 
+.btn{
+    text-align: center;
+}
+.btn a button{
+    padding: 10px;
+    width: 17%;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color:  var(--extra-light);
+    cursor: pointer;
+    background-color:var(--primary-color);
+}
+.btn a>button:hover{
+    background-color: var(--primary-color-dark);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.btn a span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+.btn a span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn a:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn a:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
 @media (max-width: 1200px){
     .projects{
         width: 80%;
         margin: auto;
     }
+}
+@media (max-width: 700px){
+    .btn a button{
+        width: 27%;
+        font-size: 15px;
+    }
+    .p-box img{
+        width: 90%;
+    }
+
+}
+@media (max-width: 450px){
+    .btn a button{
+        width: 37%;
+        font-size: 14px;
+    }
+
 }

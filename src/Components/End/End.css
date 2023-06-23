@@ -17,6 +17,6 @@
     padding: 8px;
     border-radius: 8px;
     font-size: 20px;
-    background: var(--secondary-color);
+    background: var(--primary-color);
     color: var(--extra-light);
 }

@@ -19,8 +19,8 @@ const Hero = () => {
                     web projects, ranging from personal blogs to e-commerce platforms.
                 </p>
                 <div class="action__btns">
-                    <button class="hire__me">Hire Me</button>
-                    <button class="portfolio">Portfolio</button>
+                    <button class="hire__me"><a href="#Contact"  style={{color: 'inherit', textDecoration: 'none'}}>Hire Me</a></button>
+                    <button class="portfolio"><a href="#Portfolio" style={{color: 'inherit', textDecoration: 'none'}}>Portfolio</a></button>
                 </div>
                 </div>
                 <div class="image">

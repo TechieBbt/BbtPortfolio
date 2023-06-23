@@ -21,8 +21,8 @@ const Projects = () => {
                 <div className="on-top">
                     <h5>Candleaf</h5>
                     <p>Check out this e-commerce website for wax</p>
-                    <span>Reactjs</span>
-                    <a href="https://the-candleaf-project.vercel.app/">
+                    <span> #Reactjs #HTML #CSS #JavaScript</span>
+                    <a href="https://the-candleaf-project.vercel.app/" rel="noreferrer" target="_blank">
                         <i class="ri-external-link-line"></i>                    
                     </a>
                 </div>
@@ -32,8 +32,8 @@ const Projects = () => {
                 <div className="on-top">
                     <h5>Pavilion</h5>
                     <p>Check out this database website for an organization</p>
-                    <span>Reactjs</span>
-                    <a href="https://posmon-reactjs.vercel.app/">
+                    <span>#Reactjs #HTML #CSS #JavaScript</span>
+                    <a href="https://posmon-reactjs.vercel.app/" rel="noreferrer" target="_blank">
                         <i class="ri-external-link-line"></i>                    
                     </a>
                 </div>
@@ -43,8 +43,8 @@ const Projects = () => {
                 <div className="on-top">
                     <h5>Gracehands</h5>
                     <p>Check out this education website for tech</p>
-                    <span>Reactjs</span>
-                    <a href="https://gracehands.vercel.app/">
+                    <span>#Reactjs #HTML #CSS #JavaScript</span>
+                    <a href="https://gracehands.vercel.app/" rel="noreferrer" target="_blank">
                         <i class="ri-external-link-line"></i>
                     </a>
                 </div>
@@ -54,8 +54,8 @@ const Projects = () => {
                 <div className="on-top">
                     <h5>Deliver</h5>
                     <p>Check out this delivery website</p>
-                    <span>HTML</span>
-                    <a href="https://deliver-landing-project.vercel.app/#">
+                    <span>#HTML #CSS #JavaScript</span>
+                    <a href="https://deliver-landing-project.vercel.app/#" rel="noreferrer" target="_blank">
                         <i class="ri-external-link-line"></i>
                     </a>
                 </div>
@@ -65,8 +65,8 @@ const Projects = () => {
                 <div className="on-top">
                     <h5>D-Express</h5>
                     <p>Check out this online pharmacy website</p>
-                    <span>HTML</span>
-                    <a href="https://d-express-landing-page.vercel.app/">
+                    <span>#HTML #CSS #JavaScript</span>
+                    <a href="https://d-express-landing-page.vercel.app/" rel="noreferrer" target="_blank">
                         <i class="ri-external-link-line"></i>
                     </a>
                 </div>
@@ -76,12 +76,17 @@ const Projects = () => {
                 <div className="on-top">
                     <h5>Emailjs Form</h5>
                     <p>A contact form linked to Emailjs</p>
-                    <span>Reactjs</span>
-                    <a href="https://emailjs-form.vercel.app/">
+                    <span>#Reactjs #HTML #CSS #JavaScript #Emailjs</span>
+                    <a href="https://emailjs-form.vercel.app/" rel="noreferrer" target="_blank">
                         <i class="ri-external-link-line"></i>
                     </a>
                 </div>
             </div>
+        </div>
+        <div className="btn">
+            <a href="https://github.com/TechieBbt/" rel="noreferrer" target="_blank" id="see">
+                <button><span>See More</span></button>
+            </a>
         </div>
         </section>
     </div>
