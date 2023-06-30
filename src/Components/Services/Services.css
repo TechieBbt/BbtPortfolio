@@ -70,3 +70,16 @@ span{
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 920px){
+    .serv-boxes{
+        width: 95%;
+        margin: auto;
+    }
+    .box{
+        padding: 20px 20px;
+        border-radius: 8px;
+        transition: all .45s ease;
+        background-color:rgb(230, 227, 224);
+    }
+}

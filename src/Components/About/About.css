@@ -63,7 +63,7 @@ span{
 @media (width < 750px) {
   
     .about {
-      padding: 10rem 1rem 5rem 1rem;
+      padding: 5rem 1rem 5rem 1rem;
       text-align: center;
       grid-template-columns: repeat(1, 1fr);
     }

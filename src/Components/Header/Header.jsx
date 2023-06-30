@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
+// import Logo from '../../Assets/bbtlog.png';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,7 +18,10 @@ const Header = () => {
       <nav>
         <div className="nav__content">
           <div className="logo">
-            <a href="/">BBT</a>
+            <a href="/">
+              BBT
+              {/* <img src={Logo} alt="" /> */}
+            </a>
           </div>
           <label htmlFor="check" className="checkbox" onClick={handleMenuToggle}>
             <i className="ri-menu-line"></i>

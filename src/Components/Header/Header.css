@@ -1,6 +1,9 @@
 a {
     text-decoration: none;
   }
+  .logo a>img{
+    max-width: 25%;
+  }
   
   body {
     font-family: "Poppins", sans-serif;

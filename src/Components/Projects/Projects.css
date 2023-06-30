@@ -135,12 +135,27 @@
     .p-box img{
         width: 90%;
     }
-
+    
 }
 @media (max-width: 450px){
     .btn a button{
         width: 37%;
         font-size: 14px;
     }
+    
+}
 
+@media (max-width: 400px){
+    .projects{
+        width: 100%;
+    }
+    .p-box{
+        position: relative;
+        overflow: hidden;
+        width: 80%;
+        margin: auto;
+    }
+    .p-box img{
+        width: 90%;
+    }
 }

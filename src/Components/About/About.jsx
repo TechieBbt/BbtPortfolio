@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css";
-import Oluwatobi from '../../Assets/bbt.png';
+import Oluwatobi from '../../Assets/BBTss.png';
 
 const About = () => {
   return (

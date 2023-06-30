@@ -20,3 +20,13 @@
     background: var(--primary-color);
     color: var(--extra-light);
 }
+
+@media (max-width: 500px){
+    .copyright{
+        padding: 20px 15%;
+    }
+    .end p{
+        font-size: 12px;
+    }
+}
+    

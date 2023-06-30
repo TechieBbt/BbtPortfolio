@@ -116,6 +116,7 @@ form textarea{
 @media (max-width: 920px){
     .contact{
         width: 90%;
+        padding-top: 2rem;
         margin: auto;
         grid-template-columns: 1fr;
     }
@@ -123,6 +124,6 @@ form textarea{
         margin-top: 0.5rem;
     }
     .con-text p{
-        width: 70%;
+        width: 75%;
     }
 }
