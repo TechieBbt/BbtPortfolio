@@ -1,12 +1,12 @@
 .service{
-    background: var(--extra-light);
+    /* background: var(--extra-light); */
     min-height: 100vh;
     padding-bottom: 2rem;
 
 }
 .head-text{
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 .head-text p{
     color: var(--text-light);
@@ -18,13 +18,13 @@
 }
 .head-text h2{
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 3rem;
-    color: var(--secondary-color);
+    color: var(--primary-color-dark);
     letter-spacing: 2px;
 }
 span{
-    color: var(--text-dark);
+    color: var(--text-white);
 }
 .serv-boxes{
     display: grid;
@@ -40,10 +40,11 @@ span{
     padding: 35px 45px;
     border-radius: 8px;
     transition: all .45s ease;
-    background-color:rgb(230, 227, 224);
+    background-color:rgb(20, 1, 31);
 }
 .s-icons i{
     font-size: 32px;
+    color: var(--text-white);
 }
 .box h3{
     font-size: 24px;
@@ -55,6 +56,9 @@ span{
 .box p{
     line-height: 1.6rem;
     font-size: 1rem;
+    color: var(--extra-light); 
+}
+.box p:hover{
     color: var(--text-light); 
 }
 .box:hover{
@@ -80,6 +84,5 @@ span{
         padding: 20px 20px;
         border-radius: 8px;
         transition: all .45s ease;
-        background-color:rgb(230, 227, 224);
     }
 }

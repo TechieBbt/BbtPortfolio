@@ -1,5 +1,5 @@
 .about{
-    min-height: 100vh;
+    min-height: 90vh;
     max-width: var(--max-width);
     padding: 1rem;
     display: grid;
@@ -23,7 +23,7 @@
 }
 .about-text h2{
     letter-spacing: 2px;
-    color: var(--secondary-color);
+    color: var(--primary-color-dark);
     font-weight: 600;
     margin-bottom: 0.5rem;
 }

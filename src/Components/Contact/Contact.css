@@ -1,6 +1,6 @@
 .contactside{
-    background-color: var(--text-light);
-    margin-top: 5rem;
+    /* background-color: var(--text-light); */
+    margin-top: 1rem;
 }
 .contact{    
     padding-top: 3rem;
@@ -21,7 +21,7 @@
     margin: 18px 0;
 }
 .con-text h2{
-    color: var(--secondary-color);
+    color: var(--primary-color-dark);
 }
 .con-text p{
     color: var(--extra-light);
@@ -71,8 +71,8 @@
 form textarea{
     width: 100%;
     padding: 14px;
-    background: var(--text-dark);
-    color: var(--extra-light);
+    background: rgb(20, 1, 31);
+    color: var(--text-light);
     border: none;
     outline: none;
     font-size: 15px;

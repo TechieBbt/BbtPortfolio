@@ -39,14 +39,13 @@ const Contact = () => {
                 <h2>Contact <span>Me!</span></h2>
                 <p>I am a skilled and creative web developer with a passion for creating beautiful, responsive, and user-friendly websites. </p>
                 <div className="list">
-                    <li><a href="#0">+2347019119024</a></li>
-                    <li><a href="#0">bablotobi@gmail.com</a></li>
-                    <li><a href="#0">Like Share and Subscribe</a></li>
+                    <li><a href="tel:+2347019119024">+2347019119024</a></li>
+                    <li><a href= "mailto: bablotobi@gmail.com">bablotobi@gmail.com</a></li>
                 </div>
                 <div className="c-icons">
-                    <a href="#0"><i class="ri-github-fill"></i></a>
-                    <a href="#0"><i class="ri-linkedin-line"></i></a>
-                    <a href="#0"><i class="ri-twitter-line"></i></a>
+                    <a href="https://github.com/TechieBbt" rel="noreferrer" target="_blank"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/oluwatobi-babalola-victoria/" rel="noreferrer" target="_blank"><i class="ri-linkedin-line"></i></a>
+                    <a href="https://twitter.com/i_am_bbt" rel="noreferrer" target="_blank"><i class="ri-twitter-line"></i></a>
                     <a href="#0"><i class="ri-instagram-line"></i></a>
                 </div>
             </div>

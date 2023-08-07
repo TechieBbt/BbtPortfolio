@@ -5,14 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(6, 0, 24);
 }
 :root {
   --primary-color: #a855f7;
   --primary-color-dark: #9333ea;
   --secondary-color: #ca8a04;
-  --text-dark: #1f2937;
-  --text-light: #6b7280;
-  --extra-light: #faf5ff;
+  --text-dark: #f6f7fa;
+  --text-white: #ffffff;
+  --text-light: #7a808b;
+  --extra-light: #eeeaf1;
   --pic-color: #3E000C;
   --max-width: 1200px;
 }

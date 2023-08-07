@@ -7,6 +7,7 @@ a {
   
   body {
     font-family: "Poppins", sans-serif;
+   
   }
   
   nav {
@@ -14,7 +15,7 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #ffffff;
+    background: rgb(20, 1, 31);
     z-index: 99;
   }
   
@@ -63,14 +64,14 @@ a {
     border: 2px solid transparent;
     text-decoration: none;
     font-weight: 600;
-    color: var(--text-dark);
+    color: var(--primary-color);
     transition: 0.3s;
   }
   
   ul li a:hover {
-    border-top-color: var(--secondary-color);
-    border-bottom-color: var(--secondary-color);
-    color: var(--secondary-color);
+    border-top-color: var(--text-light);
+    border-bottom-color: var(--text-light);
+    color: var(--text-white);
   }
 
   @media (width < 750px) {
@@ -84,7 +85,7 @@ a {
       height: calc(100vh - 85px);
       left: -100%;
       top: 85px;
-      background-color: var(--extra-light);
+      background-color: rgb(20, 1, 31);
       flex-direction: column;
       justify-content: center;
       gap: 3rem;

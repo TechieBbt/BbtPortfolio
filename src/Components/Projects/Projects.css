@@ -11,10 +11,11 @@
     margin-bottom: 3rem;
 }
 .p-box{
-    position: relative;
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
+    padding: 25px 20px;
+    background-color:rgb(20, 1, 31);
 }
 .p-box img{
     width: 100%;
@@ -23,30 +24,21 @@
     transition: transform 0.5s;
 }
 .on-top{
-    width: 100%;
-    height: 0;
-    position: absolute;
-    border-radius: 8px;
-    background: linear-gradient(rgba(0,0,0,0.1), #a104fcec);
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
+    margin-top: 1rem;
     align-content: center;
     text-align: center;
     justify-content: center;
-    padding: 0 40px;
-    transition: height 0.5s;
+    display: flex;
     flex-direction: column;
 }
 .on-top h5{
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 15px;
-    color: var(--secondary-color);
+    margin-bottom: 10px;
+    color: var(--primary-color);
 }
 .on-top p{
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: 500;
     color: rgba(217, 243, 235, 0.904);
     line-height: 24px;
@@ -54,14 +46,14 @@
 .on-top span{
     font-size: 0.8rem;
     font-weight: 500;
-    color: rgba(177, 238, 220, 0.904);
+    color: rgba(189, 186, 238, 0.904);
     line-height: 24px;
 }
 .on-top i{
     color: #a104fcec;
     margin-top: 20px;
     font-size: 20px;
-    background: rgb(190, 218, 243);
+    background: rgb(230, 237, 243);
     width: 50px;
     height: 50px;
     padding: 10px;
@@ -133,7 +125,7 @@
         font-size: 15px;
     }
     .p-box img{
-        width: 90%;
+        width: 100%;
     }
     
 }
