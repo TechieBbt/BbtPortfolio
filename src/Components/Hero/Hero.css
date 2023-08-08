@@ -95,6 +95,7 @@
   .action__btns {
     display: flex;
     gap: 1rem;
+    position: relative;
   }
   
   .action__btns button {
@@ -112,6 +113,7 @@
   .hire__me {
     background-color: var(--primary-color);
     color: #ffffff;
+    cursor: pointer;
   }
   
   .hire__me:hover {
@@ -120,6 +122,7 @@
   
   .portfolio {
     color: var(--primary-color);
+    cursor: pointer;
   }
   
   .portfolio:hover {
@@ -141,13 +144,14 @@
   @media (width < 750px) {
   
     .section__container {
-      padding: 5rem 1rem 5rem 1rem;
+      padding: 3rem 1rem 3rem 1rem;
       text-align: center;
       grid-template-columns: repeat(1, 1fr);
     }
   
     .image {
       grid-area: 1/1/2/2;
+      margin-bottom: -1rem;
     }
   
     .action__btns {
